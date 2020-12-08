@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nerko+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.titulo {
+  width: 80%;
+  background: #57f37b;
+  margin: 5% 10% 2% 10%;
+  text-align: center;
+  border-bottom: 1px solid #888;
+  border-top: 1px solid #888;
+}
+
+.formulario {
+  margin-left: 10%;
+  width: 80%;
+}
+
+#form {
+  display: block;
+}
+
+#jogo {
+  display: none;
+}
+
+.player {
+  background: #cfe2ff;
+  color: #27429e;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 5px;
+  border: 1px solid #27429e;
+  display: flex;
+}
+
+.player h2 {
+  padding: 3%;
+  text-transform: uppercase;
+  font-size: 1em;
+  width: 50%;
+}
+
+.tabuleiro {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+}
+
+.linha {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.celula {
+  width: 96%;
+  border: 1px solid #274293;
+  height: 4rem;
+  margin: 2%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 3px 10px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 3px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.celula:hover {
+  background: #cfe2ff;
+  cursor: pointer;
+}
+
+.celula strong {
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-family: 'Nerko One', cursive;
+}
+
+.placar {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.msg { 
+  width: 55%;
+  position: relative;
+  top: 10%;
+  left: 20%;
+}
+
+#btn-reiniciar-jogo {
+  position: absolute;
+  left: 10%;
+  bottom: 12%;
+}
+
+#btn-reiniciar-partida {
+  position: absolute;
+  right: 10%;
+  bottom: 12%;
+}
